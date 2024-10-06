@@ -1,0 +1,25 @@
+body {
+  background-image: url(sheep.jpeg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar ul {
+  list-style-type: none;
+  border: black;
+  padding: 0px;
+  overflow: hidden;
+}
+.nabar a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.navbar a:hover {
+  background-color: white;
+}
+.navbar li {
+  float: left;
+}
